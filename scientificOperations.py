@@ -13,23 +13,21 @@ def scientific_calculate(operation, num1):
         - the result of the operation on the given number
     """
 
+        #my work
     if operation == 'sin':
         return math.sin(num1)
 
     elif operation == 'cos':
-        # TODO: finish this statement
-        # - should return the cosine of num1
-        pass  # Replace this line with your code
+        return math.cos(num1)
+        
 
     elif operation == 'tan':
-        # TODO: finish this statement
-        # - should return the tangent of num1
-        pass  # Replace this line with your code
+        return math.tan(num1)
+        
 
     elif operation == 'ln':
-        # TODO: finish this statement
-        # - should return the natural log of num1
-        pass  # Replace this line with your code
+        return math.ln(num1)
+        
 
     else:
         raise ValueError(
